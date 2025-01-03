@@ -22,7 +22,7 @@
       require('outlayer'),
       require('get-size')
     );
-  } else {
+  } else if(window) {
     // browser global
     window.Masonry = factory(
       window.Outlayer,
